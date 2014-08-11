@@ -785,3 +785,5 @@ __SYSCALL(__NR_finit_module, sys_finit_module)
 __SYSCALL(__NR_seccomp, sys_seccomp)
 #define __NR_getrandom 384
 __SYSCALL(__NR_getrandom, sys_getrandom)
+#define __NR_memfd_create 385
+__SYSCALL(__NR_memfd_create, sys_memfd_create)
