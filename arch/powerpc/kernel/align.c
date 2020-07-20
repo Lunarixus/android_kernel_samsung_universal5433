@@ -25,6 +25,7 @@
 #include <asm/cputable.h>
 #include <asm/emulated_ops.h>
 #include <asm/switch_to.h>
+#include <asm/disassemble.h>
 
 struct aligninfo {
 	unsigned char len;
